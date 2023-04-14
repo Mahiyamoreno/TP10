@@ -1,7 +1,11 @@
 /* CSS TP10*/
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Shrikhand&display=swap');
 
-
+body {
+    padding: 60px;
+    margin:60px;
+    box-sizing: border-box; 
+}
 #temps {
     background: pink;
     width: 100%;
@@ -9,4 +13,11 @@
     position: relative;
     font-family: 'Shrikhand', cursive;
     font-size: 100px ;
+}
+
+#tempF {
+    font-size: 30px;
+}
+#tempC {
+    font-size: 20px;
 }

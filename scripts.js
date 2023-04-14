@@ -22,3 +22,10 @@ fetch('https://weatherapi-com.p.rapidapi.com/current.json?q=Pullman%2C%20Washing
 	.catch(err => console.error(err));
     
 } ) ; 
+// Load API UV 
+
+	
+	
+	
+	
+	
