@@ -16,6 +16,7 @@ fetch('https://weatherapi-com.p.rapidapi.com/current.json?q=Pullman%2C%20Washing
 	.then(response => response.json())
 	.then(function(response){
 	    document.querySelector("#tempF span").innerHTML = response.current.temp_f;
+	    document.querySelector("#tempC span").innerHTML = response.current.temp_c;
 	    return response; 
 	})
 	.catch(err => console.error(err));
